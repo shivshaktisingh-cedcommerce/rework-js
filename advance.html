@@ -1,0 +1,41 @@
+<html>
+ <head>
+ <link rel="stylesheet" href="rework.css">
+ <script src="rework.js"></script>
+ </head>
+<body>
+ <div class="task5">
+   <select name="product" id="cm">
+     <option value="samsung galaxy"name="samsung galaxy">samsung galaxy</option>
+     <option value="nokia S730">nokia S730</option>
+     <option value="xiaomi note" >xiaomi note</option>
+     <option value="motorola g10">motorola G10</option>
+     <option value="apple S12">apple S12</option>
+   </select>
+   <input type="text" id="num" placeholder="Quantity" name="search">
+   <button onclick="addingquan()">Add</button>
+   <button onclick="billingquan()">Bill</button>
+   <table> 
+     <thead>
+       <tr>
+         <th>Bill</th>
+         <th></th>
+         <th></th>
+       </tr>
+       <tr>
+         <th>Description</th>
+         <th>Quantity</th>
+         <th>Amount</th>
+       </tr>
+       </thead>
+       <tbody id="addTable">
+       </tbody>
+     </table>
+     <table> 
+       <tbody id="billTable">
+       </tbody>
+     </table>
+ </div>
+</body>
+</html>
+
